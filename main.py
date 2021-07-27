@@ -3,10 +3,10 @@ import requests
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
-CLIENT_ID = "5ab77e2e5bdd4f889157679656aa6d66"
-CLIENT_SECRET = "9db165881ff94dcbaebd2e4db84b9dc4"
+CLIENT_ID = YOUR CLIENT ID
+CLIENT_SECRET = YOUR CLIENT SECRET
 REDIRECT_URL = "http://example.com"
-USER_ID = "31legwp2y4j5s347kkldzaoqpfrm"
+USER_ID = YOUR SPOTIFY USER ID
 PLAY_LIST_POST_ADDRESS = f'https://api.spotify.com/v1/users/{USER_ID}/playlists'
 songs_list = []
 date = input("Which year do you want to travel to? Type the date in this format  YYY-MM-DD ")
